@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]">
+  <test name="Test(failed)">
+    <classes>
+      <class name="testScript.FastOrderEntry">
+        <methods>
+          <include name="f"/>
+        </methods>
+      </class> <!-- testScript.FastOrderEntry -->
+      <class name="testScript.TC001_LoginOTM">
+        <methods>
+          <include name="LoginOTM"/>
+          <include name="LaunchOTM"/>
+        </methods>
+      </class> <!-- testScript.TC001_LoginOTM -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
